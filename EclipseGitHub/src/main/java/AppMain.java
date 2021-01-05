@@ -1,9 +1,16 @@
-package com.poortoys.examples;
-
 public class AppMain {
 
-    public static void main(String[] args) {
-        System.out.println("Hello, EPSI 3");
-    }
+   private String message;
 
-}
+   //Constructor
+   //@param message to be printed
+   public AppMain(String message){
+      this.message = message;
+   }
+      
+   // prints the message
+   public String printMessage(){
+      System.out.println(message);
+      return message;
+   }   
+} 
