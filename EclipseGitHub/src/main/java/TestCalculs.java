@@ -2,7 +2,7 @@
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
-public class CalculesTest {
+public class TestCalculs {
 
 	int valeur1 = 10;
 	int valeur2 = 5;
@@ -12,7 +12,7 @@ public class CalculesTest {
 	public void testAddition() {	  
 		assertEquals(15,calcul1.additionner());
 	}
-	
+	/**
 	@Test
 	public void testSoustraction() {	  
 		assertEquals(5,calcul1.soustraire());
@@ -26,5 +26,5 @@ public class CalculesTest {
 	@Test
 	public void testMultiplication() {	  
 		assertEquals(50,calcul1.multiplier());
-	}
+	}**/
 }
