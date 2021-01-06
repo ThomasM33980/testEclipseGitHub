@@ -12,7 +12,7 @@ public class TestCalculs {
 	public void testAddition() {	  
 		assertEquals(15,calcul1.additionner());
 	}
-	/**
+	
 	@Test
 	public void testSoustraction() {	  
 		assertEquals(5,calcul1.soustraire());
@@ -26,5 +26,5 @@ public class TestCalculs {
 	@Test
 	public void testMultiplication() {	  
 		assertEquals(50,calcul1.multiplier());
-	}**/
+	}
 }
