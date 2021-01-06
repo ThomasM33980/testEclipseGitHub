@@ -1,10 +1,10 @@
-public class AppMain {
+public class MessageUtil {
 
    private String message;
 
    //Constructor
    //@param message to be printed
-   public AppMain(String message){
+   public MessageUtil(String message){
       this.message = message;
    }
       
@@ -12,5 +12,5 @@ public class AppMain {
    public String printMessage(){
       System.out.println(message);
       return message;
-   }   
+   }
 } 

@@ -10,22 +10,22 @@ public class Calculs {
 	      this.valeur2 = valeur2;
 	   }
 	   
-	   public int additionner() {
+	   public int additionner(){
 		   System.out.println(valeur1 + valeur2);
 		   return valeur1 + valeur2;
 	   }
 	   
-	   public int soustraire() {
+	   public int soustraire(){
 		   System.out.println(valeur1 - valeur2);
 		   return valeur1 - valeur2;
 	   }
 	   
-	   public int diviser() {
+	   public int diviser(){
 		   System.out.println(valeur1 / valeur2);
 		   return valeur1 / valeur2;
 	   }
 	   
-	   public int multiplier() {
+	   public int multiplier(){
 		   System.out.println(valeur1 * valeur2);
 		   return valeur1 * valeur2;
 	   }

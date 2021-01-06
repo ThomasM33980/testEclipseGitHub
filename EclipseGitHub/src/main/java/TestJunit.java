@@ -1,9 +1,9 @@
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
-public class testAppMain {
+public class TestJunit {
 	
-   String message = "Hello, EPSI 3";	
+   String message = "Hello Epsi";	
    MessageUtil messageUtil = new MessageUtil(message);
 
    @Test
